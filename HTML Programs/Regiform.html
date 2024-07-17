@@ -4,6 +4,17 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Registration form </title>
+	<style>
+		.form{
+			width: 30%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color:skyblue;
+            border: 1px solid black;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+	</style>
 </head>
 <body>
 	<center>
@@ -20,7 +31,13 @@
 			<input type="password" id="password" name="password"><br><br>
 
 			<label for="confirm_password">Confirm Password:</label>
-			<input type="confirm_password" name="confirm_password">
+			<input type="confirm_password" id="confirm_password" name="confirm_password"><br><br>
+
+			<label for="phone">Phone Number:</label>
+			<input type="tel" id="phone" name="phone"><br><br>
+
+			<input type="submit" value="Register">
+
 
 
 
